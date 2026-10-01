@@ -50,8 +50,5 @@ public class ej7 {
 
         teclado.close();
 
-
-
-
     }
 }

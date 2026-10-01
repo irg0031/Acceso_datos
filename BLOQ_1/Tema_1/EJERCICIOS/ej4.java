@@ -11,30 +11,29 @@ import java.io.IOException;
 public class ej4 {
     public static void main(String[] args) {
 
-        String origen = "images.jpg";
-        String destino = "foto_copia_buffer.jpg";
+        int tamanoBuffer = 1024;
 
-        byte[] buffer = new byte[1024];
-        int bytesLeidos;
-        int numeroBloque = 1;
 
-        try (BufferedInputStream entrada = new BufferedInputStream(new FileInputStream(origen));
-                BufferedOutputStream salida = new BufferedOutputStream(new FileOutputStream(destino))) {
+        byte[] buffer= new byte[tamanoBuffer];
 
-            // Leer y escribir bloques de 1024 bytes
-            while ((bytesLeidos = entrada.read(buffer)) != -1) {
+        try {
+            
+            BufferedInputStream entrada = new BufferedInputStream (new FileInputStream("./Tema_1/EJERCICIOS/medac.jpg"), tamanoBuffer);
 
-                salida.write(buffer, 0, bytesLeidos);
 
-                System.out.println("Fin copia bloque " + numeroBloque);
-                numeroBloque++;
+            int bytesleidos;
+            while ((bytesleidos= entrada.read(buffer)) != -1) {
+                bloque ++;
+                salida.write(buffer, 0, bytesleidos);
             }
 
-            System.out.println("Copia finalizada correctamente.");
+            entrada.close();
+            salida.close();
 
-        } catch (IOException e) {
-            System.out.println("Error de entrada/salida: " + e.getMessage());
+        } catch (Exception e) {
+            // TODO: handle exception
         }
+
 
     }
 }
