@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class ej7 {
     public static void main(String[] args) {
         
-         
   Scanner teclado = new Scanner(System.in);
 
         System.out.print("Introduce la posicion inicial (0-19): ");
