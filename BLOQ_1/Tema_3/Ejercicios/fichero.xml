@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plataformas>
+    <plataforma nombre="PlayStation">
+        <videojuego>
+            <titulo>God of War</titulo>
+            <genero>Acción</genero>
+            <anio>2018</anio>
+        </videojuego>
+        <videojuego>
+            <titulo>Spider-Man</titulo>
+            <genero>Aventura</genero>
+            <anio>2018</anio>
+        </videojuego>
+    </plataforma>
+
+    <plataforma nombre="Xbox">
+        <videojuego>
+            <titulo>Halo Infinite</titulo>
+            <genero>Acción</genero>
+            <anio>2021</anio>
+        </videojuego>
+        <videojuego>
+            <titulo>Forza Horizon 5</titulo>
+            <genero>Conducción</genero>
+            <anio>2021</anio>
+        </videojuego>
+    </plataforma>
+</plataformas>
