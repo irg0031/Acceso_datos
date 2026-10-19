@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plataformas>
+    <plataforma nombre="PlayStation">
+        <titulo>EA Sports FC 26</titulo>
+        <genero>Deportes</genero>
+        <año>2025</año>
+    </plataforma>
+
+    <plataforma nombre="Xbox">
+        <titulo>Forza Horizon 5</titulo>
+        <genero>Conducción</genero>
+        <año>2021</año>
+    </plataforma>
+
+    <plataforma nombre="Nintendo">
+        <titulo>Mario Kart 8 Deluxe</titulo>
+        <genero>Conducción</genero>
+        <año>2017</año>
+    </plataforma>
+</plataformas>
