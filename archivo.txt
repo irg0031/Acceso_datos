@@ -1,1 +1,2 @@
-hola
+Hola, este es un texto de prueba.
+Escribiendo una segunda línea.
